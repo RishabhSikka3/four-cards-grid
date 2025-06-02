@@ -80,6 +80,22 @@ html {
     4px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
+.card:nth-child(1) {
+  border-top: 3px solid var(--red);
+}
+
+.card:nth-child(2) {
+  border-top: 3px solid var(--cyan);
+}
+
+.card:nth-child(3) {
+  border-top: 3px solid var(--blue);
+}
+
+.card:nth-child(4) {
+  border-top: 3px solid var(--orange);
+}
+
 .card .card-title {
   font-weight: var(--font-weight-semibold);
   font-size: 20px;
@@ -109,7 +125,7 @@ footer .attribution {
   }
   .cards {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat("auto-fit", 1fr);
   }
 
   .card:nth-child(1) {
