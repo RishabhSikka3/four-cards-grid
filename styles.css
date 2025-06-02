@@ -125,7 +125,6 @@ footer .attribution {
   }
   .cards {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat("auto-fit", 1fr);
   }
 
   .card:nth-child(1) {
